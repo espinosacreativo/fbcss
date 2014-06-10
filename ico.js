@@ -1,5 +1,7 @@
 function addIcono(id,drop,src){document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_001_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";}
-		
+function test() {
+    alert();
+}		
 	function cargacss(csscode){
         var css = document.createElement("style");
         css.type = "text/css";
@@ -22,7 +24,7 @@ function addIcono(id,drop,src){document.getElementById("iconos").innerHTML+="<im
 
     	var divpaneldesplegado = document.createElement("div");
         divpaneldesplegado.id = "panel-desplegado";
-        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><div id='iconos'><img width = '1px' src='#'></div>";
+        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><input type='button' value='test' onclick='test'><div id='iconos'><img width = '1px' src='#'></div>";
         divpaneldesplegado.innerHTML += "<script type='text/javascript'>alert();</script>"
         document.body.appendChild(divpaneldesplegado);
        	document.getElementById("atras").onclick = function() { 
@@ -40,7 +42,7 @@ function addIcono(id,drop,src){document.getElementById("iconos").innerHTML+="<im
 		cargacss("#iconos{padding: 10px 26px;overflow: auto;height: 83%;}")
         cargapanel();
     	desplegarpanel();
-    	
+
 addIcono("ico1","https://dl.dropboxusercontent.com/s/lrv3ryjjikjeg53/Emoji%20Smiley-01.png","http://goo.gl/yUBL5N");
 addIcono("ico2","https://dl.dropboxusercontent.com/s/1hs5cof2g95pp1b/Emoji%20Smiley-02.png","http://goo.gl/pN309h");
 //addIcono("ico3","","http://goo.gl/PYIgdk");
