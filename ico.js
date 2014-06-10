@@ -1,6 +1,6 @@
 function addIcono(id,drop,src){document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_001_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";}
-function test() {
-    alert();
+function test(val) {
+    alert(val);
 }		
 	function cargacss(csscode){
         var css = document.createElement("style");
@@ -24,7 +24,7 @@ function test() {
 
     	var divpaneldesplegado = document.createElement("div");
         divpaneldesplegado.id = "panel-desplegado";
-        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><input type='button' value='test' onclick='test'><div id='iconos'><img width = '1px' src='#'></div>";
+        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><SELECT NAME='selico' onChange='selico(this.value)'><OPTION VALUE='1'>Emoji</OPTION><OPTION VALUE='about'>Creador</OPTION> </SELECT><div id='iconos'><img width = '1px' src='#'></div>";
         divpaneldesplegado.innerHTML += "<script type='text/javascript'>alert();</script>"
         document.body.appendChild(divpaneldesplegado);
        	document.getElementById("atras").onclick = function() { 
