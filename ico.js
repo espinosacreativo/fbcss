@@ -1,6 +1,6 @@
 function addIcono(id,src){document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_001_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+src+"'>";}
-addIcono("ico1","https://www.dropbox.com/s/lrv3ryjjikjeg53/Emoji%20Smiley-01.png","http://goo.gl/yUBL5N");
-addIcono("ico2","https://www.dropbox.com/s/1hs5cof2g95pp1b/Emoji%20Smiley-02.png","http://goo.gl/pN309h");
+addIcono("ico1","https://dl.dropboxusercontent.com/s/lrv3ryjjikjeg53/Emoji%20Smiley-01.png","http://goo.gl/yUBL5N");
+addIcono("ico2","https://dl.dropboxusercontent.com/s/1hs5cof2g95pp1b/Emoji%20Smiley-02.png","http://goo.gl/pN309h");
 //addIcono("ico3","","http://goo.gl/PYIgdk");
 //addIcono("ico4","","http://goo.gl/WlEfxR");
 //addIcono("ico5","","http://goo.gl/BLMKzn");
@@ -22,7 +22,7 @@ addIcono("ico20","https://dl.dropboxusercontent.com/s/tbhvux9qnumb40r/Emoji%20Sm
 addIcono("ico21","https://dl.dropboxusercontent.com/s/2ql86br56fbq00w/Emoji%20Smiley-21.png","http://goo.gl/Cf1N7U");
 addIcono("ico22","https://dl.dropboxusercontent.com/s/cybalj4ku3lyei8/Emoji%20Smiley-22.png","http://goo.gl/WzxQ8h");
 addIcono("ico23","https://dl.dropboxusercontent.com/s/6i1ng9r9vevz3zp/Emoji%20Smiley-23.png","http://goo.gl/0oWFU0");
-addIcono("ico24","https://dl.dropbox.com/s/gyysgs6sji1o1wo/Emoji%20Smiley-24.png","http://goo.gl/3eqFwr");
+addIcono("ico24","https://dl.dropboxusercontent.com/s/gyysgs6sji1o1wo/Emoji%20Smiley-24.png","http://goo.gl/3eqFwr");
 addIcono("ico25","https://dl.dropboxusercontent.com/s/jrxyk0nm0fagkw0/Emoji%20Smiley-25.png","http://goo.gl/gxNqu4");
 addIcono("ico26","https://dl.dropboxusercontent.com/s/7vbyg089sjsqovo/Emoji%20Smiley-26.png","http://goo.gl/MsIVuZ");
 addIcono("ico27","https://dl.dropboxusercontent.com/s/ekil7oif2vikx14/Emoji%20Smiley-27.png","http://goo.gl/LH7qWg");
@@ -40,14 +40,3 @@ addIcono("ico38","https://dl.dropboxusercontent.com/s/dwfdv9ddze2bkv0/Emoji%20Sm
 addIcono("ico39","https://dl.dropboxusercontent.com/s/lj6fg6dhrm7458v/Emoji%20Smiley-39.png","http://goo.gl/8vEfVg");
 addIcono("ico40","https://dl.dropboxusercontent.com/s/r3jrhquye8no7fd/Emoji%20Smiley-40.png","http://goo.gl/XHEd2I");
 addIcono("ico41","https://dl.dropboxusercontent.com/s/0vrvd7ggxlba7xg/Emoji%20Smiley-41.png","http://goo.gl/LuhVox");
-=======
-       	function addIcono(id,drop,src){
-   		document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_001_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";
-   	}
-addIcono("ico1","https://dl.dropbox.com/s/lrv3ryjjikjeg53/Emoji%20Smiley-01.png","http://goo.gl/yUBL5N")
-addIcono("ico2","https://dl.dropbox.com/s/1hs5cof2g95pp1b/Emoji%20Smiley-02.png","http://goo.gl/pN309h")
-addIcono("ico3","https://dl.dropbox.com/s/vangqlxemcea8nd/Emoji%20Smiley-03.png","http://goo.gl/PYIgdk")
-addIcono("ico4","https://dl.dropbox.com/s/20gfruk85u5bnos/Emoji%20Smiley-04.png","http://goo.gl/WlEfxR")
-addIcono("ico5","https://dl.dropbox.com/s/1noxju8op8gr5sd/Emoji%20Smiley-05.png","http://goo.gl/BLMKzn")
-addIcono("ico6","https://dl.dropbox.com/s/q2byqnb0dvbwfpf/Emoji%20Smiley-06.png","http://goo.gl/uZ3WBI")
->>>>>>> FETCH_HEAD
