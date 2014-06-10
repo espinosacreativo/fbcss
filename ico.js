@@ -1,5 +1,5 @@
 function addIcono(id,drop,src){document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_001_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";}
-function test(val) {
+function selico(val) {
     alert(val);
 }		
 	function cargacss(csscode){
