@@ -2,7 +2,14 @@ function resetIco(){
 document.getElementById("iconos").innerHTML="";
 }
 function addIcono(id,drop,src){
-document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_001_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";
+    if(document.getElementById("vB_Editor_QR_textarea")){
+    document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_QR_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";
+    }
+    else if(document.getElementById("vB_Editor_001_textarea")){
+    document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_001_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";
+    }else{
+        alert("¡No puedo poner el icono en ningun lugar =(!");
+    }
 }
 function selIcono(val){
 
@@ -26,7 +33,7 @@ function cargaCss(csscode){var css = document.createElement("style");css.type = 
 
     	var divpaneldesplegado = document.createElement("div");
         divpaneldesplegado.id = "panel-desplegado";
-        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><div id='espera'></div><SELECT NAME='selico' id='selicono' onChange='selIcono(this.value)'><OPTION VALUE='1'>Emoji-1</OPTION><OPTION VALUE='2'>Emoji-2</OPTION><OPTION VALUE='about' selected>Creador</OPTION> </SELECT><div id='iconos'><img width = '1px' src='#'></div>";
+        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><div id='espera'></div><SELECT NAME='selico' id='selicono' onChange='selIcono(this.value)'><OPTION VALUE='1' selected>Emoji-1</OPTION><OPTION VALUE='2'>Emoji-2</OPTION><OPTION VALUE='about'>Creador</OPTION> </SELECT><div id='iconos'><img width = '1px' src='#'></div>";
         divpaneldesplegado.innerHTML += "<script type='text/javascript'>alert();</script>"
         document.body.appendChild(divpaneldesplegado);
        	document.getElementById("atras").onclick = function() { 
