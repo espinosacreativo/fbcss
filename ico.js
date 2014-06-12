@@ -7,7 +7,7 @@ document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:
 function selIcono(val) {alert(val);
 if(val==1){
     resetIco();
-    import('https://raw.githubusercontent.com/espinosacreativo/fbcss/master/emoji.js');
+    icoEmoji();
 }
 if(val=="about"){
 document.getElementById("iconos").innerHTML="test";
