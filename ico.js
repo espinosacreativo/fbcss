@@ -44,4 +44,4 @@ function cargaCss(csscode){var css = document.createElement("style");css.type = 
         cargaCss("#selicono{width: 100%;font-size: 16px;margin-top: 7px;}")
         cargapanel();
     	desplegarpanel();
-        selIcono("1"); // Div por defecto
+        
