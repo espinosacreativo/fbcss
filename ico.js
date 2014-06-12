@@ -7,7 +7,7 @@ document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:
 function selIcono(val){
 
 if(val==1){ resetIco(); icoEmoji1(); }
-if(val==1){ resetIco(); icoEmoji2(); }
+if(val==2){ resetIco(); icoEmoji2(); }
 if(val=="about"){ document.getElementById("iconos").innerHTML="test"; }
 
 }
