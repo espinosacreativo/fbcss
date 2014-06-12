@@ -28,7 +28,7 @@ function cargaCss(csscode){var css = document.createElement("style");css.type = 
 
     	var divpaneldesplegado = document.createElement("div");
         divpaneldesplegado.id = "panel-desplegado";
-        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><SELECT NAME='selico' onChange='selIcono(this.value)'><OPTION VALUE='1'>Emoji</OPTION><OPTION VALUE='about'>Creador</OPTION> </SELECT><div id='iconos'><img width = '1px' src='#'></div>";
+        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><div id='espera'><img src='http://lh4.googleusercontent.com/-yRTZo3zsgm4/UMeOzXMT_hI/AAAAAAAAILY/Kt_8pNwmjNU/s35/loading-grey.gif'></div><SELECT NAME='selico' onChange='selIcono(this.value)'><OPTION VALUE='1'>Emoji</OPTION><OPTION VALUE='about'>Creador</OPTION> </SELECT><div id='iconos'><img width = '1px' src='#'></div>";
         divpaneldesplegado.innerHTML += "<script type='text/javascript'>alert();</script>"
         document.body.appendChild(divpaneldesplegado);
        	document.getElementById("atras").onclick = function() { 

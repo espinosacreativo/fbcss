@@ -1,3 +1,7 @@
+window.onload = detectarCarga;
+function detectarCarga(){
+document.getElementById("espera").style.display="none";
+}
 function icoEmoji(){
 addIcono("icon1","https://dl.dropboxusercontent.com/s/lrv3ryjjikjeg53/Emoji%20Smiley-01.png","http://goo.gl/yUBL5N");
 addIcono("icon2","https://dl.dropboxusercontent.com/s/1hs5cof2g95pp1b/Emoji%20Smiley-02.png","http://goo.gl/pN309h");
