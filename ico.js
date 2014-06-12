@@ -1,3 +1,6 @@
+function detectarCarga(){
+document.getElementById("espera").style.display="none";
+}
 function resetIco(){
 document.getElementById("iconos").innerHTML="";
 }
@@ -8,6 +11,7 @@ function selIcono(val) {alert(val);
 if(val==1){
     resetIco();
     icoEmoji();
+    detectarCarga();
 }
 if(val=="about"){
 document.getElementById("iconos").innerHTML="test";

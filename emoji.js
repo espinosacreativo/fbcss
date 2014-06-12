@@ -1,4 +1,3 @@
-window.onload = detectarCarga;
 function detectarCarga(){
 document.getElementById("espera").style.display="none";
 }
