@@ -1,6 +1,3 @@
-function detectarCarga(){
-document.getElementById("espera").style.display="none";
-}
 function icoEmoji(){
 addIcono("icon1","https://dl.dropboxusercontent.com/s/lrv3ryjjikjeg53/Emoji%20Smiley-01.png","http://goo.gl/yUBL5N");
 addIcono("icon2","https://dl.dropboxusercontent.com/s/1hs5cof2g95pp1b/Emoji%20Smiley-02.png","http://goo.gl/pN309h");
@@ -191,4 +188,5 @@ addIcono("icon186","https://dl.dropboxusercontent.com/s/ksb624w3bz5sgpr/Emoji%20
 addIcono("icon187","https://dl.dropboxusercontent.com/s/ymddurqbead1g8g/Emoji%20Smiley-187.png","http://goo.gl/3tpDNI");
 addIcono("icon188","https://dl.dropboxusercontent.com/s/y4httw49tjs8rs3/Emoji%20Smiley-188.png","http://goo.gl/w7JZfF");
 addIcono("icon189","https://dl.dropboxusercontent.com/s/vwd4mt5qsq2l56d/Emoji%20Smiley-189.png","http://goo.gl/8oaHXb");
+detectarCarga();
 }
