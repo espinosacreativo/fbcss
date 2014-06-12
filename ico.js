@@ -1,6 +1,9 @@
 function resetIco(){
 document.getElementById("iconos").innerHTML="";
 }
+function Precarga(){
+
+}
 function addIcono(id,drop,src){
     if(document.getElementById("vB_Editor_QR_textarea")){
     document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_QR_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";
@@ -8,7 +11,7 @@ function addIcono(id,drop,src){
     else if(document.getElementById("vB_Editor_001_textarea")){
     document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_001_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";
     }else{
-        alert("¡No puedo poner el icono en ningun lugar =(!");
+    document.getElementById("iconos").innerHTML="<h4>¡No puedes poner iconos AQUÍ!</h4>";
     }
 }
 function selIcono(val){

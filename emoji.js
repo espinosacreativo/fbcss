@@ -191,4 +191,3 @@ addIcono("icon187","https://dl.dropboxusercontent.com/s/ymddurqbead1g8g/Emoji%20
 addIcono("icon188","https://dl.dropboxusercontent.com/s/y4httw49tjs8rs3/Emoji%20Smiley-188.png","http://goo.gl/w7JZfF");
 addIcono("icon189","https://dl.dropboxusercontent.com/s/vwd4mt5qsq2l56d/Emoji%20Smiley-189.png","http://goo.gl/8oaHXb");
 }
-selIcono(1); // Div por defecto
