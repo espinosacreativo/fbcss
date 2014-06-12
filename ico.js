@@ -11,7 +11,7 @@ function addIcono(id,drop,src){
     else if(document.getElementById("vB_Editor_001_textarea")){
     document.getElementById("iconos").innerHTML+="<img id='"+id+"' href='javascript:void(0);' width='30px' onclick='document.getElementById(\"vB_Editor_001_textarea\").value+=\"[img]"+src+"[/img]\";' class='iconos' src='"+drop+"'>";
     }else{
-    document.getElementById("iconos").innerHTML="<h4>¡No puedes poner iconos AQUÍ!</h4>";
+    document.getElementById("iconos").innerHTML="<h4 style='text-align:center;padding-top:40px;'>¡No puedes poner iconos :(</h4>";
     }
 }
 function selIcono(val){
@@ -36,7 +36,7 @@ function cargaCss(csscode){var css = document.createElement("style");css.type = 
 
     	var divpaneldesplegado = document.createElement("div");
         divpaneldesplegado.id = "panel-desplegado";
-        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><div id='espera'></div><SELECT NAME='selico' id='selicono' onChange='selIcono(this.value)'><OPTION VALUE='1' selected>Emoji-1</OPTION><OPTION VALUE='2'>Emoji-2</OPTION><OPTION VALUE='about'>Creador</OPTION> </SELECT><div id='iconos'><img width = '1px' src='#'></div>";
+        divpaneldesplegado.innerHTML = "<div class='titulo'><div id='atras' class='atras'><<</div></div><div id='espera'></div><SELECT NAME='selico' id='selicono' onChange='selIcono(this.value)'><OPTION VALUE='0' selected></OPTION><OPTION VALUE='1'>Emoji-1</OPTION><OPTION VALUE='2'>Emoji-2</OPTION><OPTION VALUE='about'>¡Escríbeme!</OPTION> </SELECT><div id='iconos'><img width = '1px' src='#'></div>";
         divpaneldesplegado.innerHTML += "<script type='text/javascript'>alert();</script>"
         document.body.appendChild(divpaneldesplegado);
        	document.getElementById("atras").onclick = function() { 
