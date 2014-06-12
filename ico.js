@@ -8,7 +8,7 @@ function selIcono(val){
 
 if(val==1){ resetIco(); icoEmoji1(); }
 if(val==2){ resetIco(); icoEmoji2(); }
-if(val=="about"){ document.getElementById("iconos").innerHTML="<img class='logocreator' src='http://findicons.com/files/icons/346/sweet/128/cream_happy_ice.png'><h2><a src='http://www.forocoches.com/foro/private.php?do=newpm&u=335793'>¡Escríbeme!</a></h2>"; }
+if(val=="about"){ document.getElementById("iconos").innerHTML="<img class='logocreator' style='display:block;margin:0 auto 0 auto;' src='http://findicons.com/files/icons/346/sweet/128/cream_happy_ice.png'><h2 style='text-align:center;'><a href='http://www.forocoches.com/foro/private.php?do=newpm&u=335793'>¡Escríbeme!</a></h2>"; }
 
 }
 function cargaCss(csscode){var css = document.createElement("style");css.type = "text/css";css.innerHTML = csscode;document.body.appendChild(css);}
@@ -44,4 +44,4 @@ function cargaCss(csscode){var css = document.createElement("style");css.type = 
         cargaCss("#selicono{width: 100%;font-size: 16px;margin-top: 7px;}")
         cargapanel();
     	desplegarpanel();
-        selIcono(1); // Div por defecto
+        selIcono("1"); // Div por defecto
